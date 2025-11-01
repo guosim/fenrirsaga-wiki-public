@@ -68,8 +68,6 @@ When you have reached Job 10, do take the course at the end of the Training Grou
 
 ## 🌿 Mid Game Mayhem (Approx. Lv. 40-70) 🌿
 
-🤫Bonus Tip: Need to go for Job 50 with your First Class? Do the 'Curse of Gaebold' Quest at Job 48 to get insane Job EXP.
-
 > ### 💀 **Payon Dungeon (Floors 2-4)** 💀
 > *One of the early dungeons with great Drops.*
 
