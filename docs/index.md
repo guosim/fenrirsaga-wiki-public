@@ -17,6 +17,11 @@ Whether you're a new player looking to get started or a veteran checking up on *
 
 === "October 2025"
 
+    ### October 30th, 2025
+    ```
+    - Fix bug where @brew was not consuming Medicine Bowls.
+    ```
+
     ### October 26th, 2025
     ```
     - Fixed WoE Flags in Prontera to no longer allow you to warp to the castle.
