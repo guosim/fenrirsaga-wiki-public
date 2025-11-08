@@ -14,18 +14,18 @@ document.addEventListener("DOMContentLoaded", () => {
   const woeActive = true;
 
   // Note: Times are in UTC to avoid timezone issues.
-  // Saturday 5:00 PM GMT = 17:00 UTC
+  // Saturday 6:00 PM UTC
   const woeSchedules = [
     {
       day: 6, // Saturday (0=Sunday, 1=Monday, ..., 6=Saturday)
-      startHour: 17, // 17:00 UTC (5:00 PM GMT)
+      startHour: 18, // 18:00 UTC (6:00 PM UTC)
       duration: 1,   // 1 hour
       castle: "Kriemhild (Valkyrie 1), Scarlet Palace (Baldur 2), Bergel (Britoniah 4)",
     },
   ];
 
   // The official start date of the WoE Season
-  const seasonStartDate = new Date("2025-10-18T17:00:00Z");
+  const seasonStartDate = new Date("2025-10-18T18:00:00Z");
 
   // --- Main Timer Function ---
   function updateWoeStatus() {
@@ -51,13 +51,24 @@ document.addEventListener("DOMContentLoaded", () => {
     // Check 2: Determine if a WoE is currently ONGOING or find future ones
     woeSchedules.forEach(schedule => {
       const thisWeekEventStart = getNextDateForDay(schedule.day, schedule.startHour);
+      const thisWeekEventEnd = new Date(thisWeekEventStart);
+      thisWeekEventEnd.setUTCHours(thisWeekEventEnd.getUTCHours() + schedule.duration);
       
-      // If the calculated date is in the future, check last week's date to see if that one is ongoing.
-      if (thisWeekEventStart > now) {
+      console.log('This week event start:', thisWeekEventStart.toISOString());
+      console.log('This week event end:', thisWeekEventEnd.toISOString());
+      console.log('Is ongoing?', now >= thisWeekEventStart && now < thisWeekEventEnd);
+      
+      // Check if this week's event is currently ongoing
+      if (now >= thisWeekEventStart && now < thisWeekEventEnd) {
+        ongoingWoe = { ...schedule, end: thisWeekEventEnd };
+      }
+      
+      // If this week's event hasn't started yet, check if last week's event is ongoing
+      if (!ongoingWoe && thisWeekEventStart > now) {
         const lastWeekEventStart = new Date(thisWeekEventStart);
         lastWeekEventStart.setDate(lastWeekEventStart.getDate() - 7);
         const lastWeekEventEnd = new Date(lastWeekEventStart);
-        lastWeekEventEnd.setHours(lastWeekEventEnd.getHours() + schedule.duration);
+        lastWeekEventEnd.setUTCHours(lastWeekEventEnd.getUTCHours() + schedule.duration);
 
         if (now >= lastWeekEventStart && now < lastWeekEventEnd) {
           ongoingWoe = { ...schedule, end: lastWeekEventEnd };
@@ -66,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Add the next upcoming instance of this schedule to the future list
       let nextOccurrence = getNextDateForDay(schedule.day, schedule.startHour);
-      if (nextOccurrence < now) {
+      if (nextOccurrence <= now) {
           // If it has already passed this week, get the date for next week
           nextOccurrence.setDate(nextOccurrence.getDate() + 7);
       }
