@@ -15,6 +15,22 @@ Whether you're a new player looking to get started or a veteran checking up on *
 
 # 📜 Patchnotes
 
+=== "November 2025"
+
+    ### November 13th, 2025
+    ```
+    - Removed Halloween Event. Turn in NPC still available for one more week.
+    - Added `@woetime` command to show the WoE time in server time and the duration until.
+    - Fix bug causing Happy Break to always consume Earth Scrolls
+    ```
+
+    ### November 6th, 2025
+    ```
+    - Add WoE Warper to Alberta Inn
+    - Add bulk turn in options for Halloween NPC
+    - Fix Nydhoggs Nest applying debuff multiple times.
+    ```
+
 === "October 2025"
 
     ### October 30th, 2025
