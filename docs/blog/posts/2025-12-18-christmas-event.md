@@ -230,9 +230,13 @@ Visit **Santa** in **Prontera (146,197)** to trade your hard-earned Event Ticket
 
 | Item | Ticket Cost |
 |------|------------|
-| ![Santa Poring Hat](../images/icons/5136.gif) Santa Poring Hat | 1,000 tickets |
-| ![Christmas Tree Hat](../images/icons/5138.gif) Mini Tree Hat | 1,000 tickets |
-| ![Polar Bear Cap](../images/icons/5142.gif) Polar Bear Cap | 1,000 tickets |
+| ![Santa Poring Hat](../images/icons/19682.gif) Santa Poring Hat | 1,000 tickets |
+| ![Christmas Tree Hat](../images/icons/18553.gif) Mini Tree Hat | 1,000 tickets |
+| ![Polar Bear Cap](../images/icons/19707.gif) Polar Bear Cap | 1,000 tickets |
+
+![Santa Poring Hat](../images/christmas-event/Santa_Poring_Hat.png)  
+![Christmas Tree Hat](../images/christmas-event/Christmas_Tree.png)  
+![Polar Bear Cap](../images/christmas-event/Polar_Bear_Cap.png)  
 
 ### 🎁 Consumable Items
 
