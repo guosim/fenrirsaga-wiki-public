@@ -15,6 +15,8 @@ Face the fearsome **Krampus** roaming the lands, battle exploding presents in th
 
 <!-- more -->
 
+![Christmas Event Banner](../images/christmas-event/Christmas_Banner.jpg)
+
 ## 🎄 Christmas Event Overview
 
 This year's Christmas celebration features **four festive challenges** and **holiday monster spawns**:
