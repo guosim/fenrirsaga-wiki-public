@@ -11,7 +11,7 @@ authors:
 
 The magical season has arrived! We're thrilled to announce **Fenrir Saga's Christmas Event 2025** — a festive celebration featuring multiple holiday challenges!
 
-Face the fearsome **Krampus** roaming the lands, battle exploding presents in the **Counterfeit Present Hunt**, or help the magical sisters in the **Karachun Ring Quest**! Earn **Event Tickets** to exchange for exclusive costumes and magical rewards!
+Face the fearsome **Krampus** roaming the lands or battle exploding presents in the **Counterfeit Present Hunt**! Earn **Event Tickets** to exchange for exclusive costumes and magical rewards!
 
 <!-- more -->
 
@@ -19,12 +19,11 @@ Face the fearsome **Krampus** roaming the lands, battle exploding presents in th
 
 ## 🎄 Christmas Event Overview
 
-This year's Christmas celebration features **four festive challenges** and **holiday monster spawns**:
+This year's Christmas celebration features **three festive challenges** and **holiday monster spawns**:
 
 1. **🎅 Antonio Invasion** — Santa's helper has appeared across the world
 2. **👹 Krampus Hunt** — A roaming MVP boss challenge for all adventurers
 3. **🎁 Counterfeit Present Hunt** — A team-based survival arena event
-4. **💍 Karachun Ring Quest** — Help the three magical sisters
 
 All events reward **Event Tickets** which can be exchanged for exclusive costumes and magical items!
 
@@ -223,83 +222,6 @@ When 2 or more players join:
 
 ---
 
-## 💍 Karachun Ring Quest — The Three Sisters
-
-Three magical sisters need your help preparing gifts for the holidays! Complete their quest to earn powerful **Christmas Rings** with special abilities.
-
-### 🎭 The Sisters
-
-#### Snower — Middle Sister (Prontera 156,174)
-
-The middle sister coordinates the gift wrapping operation.
-
-- Converts fancy gift boxes into standard gray boxes
-- Provides information about his sisters
-
-#### Sneewy — Younger Sister (Louyang 224,249)
-
-The younger sister helps poor children.
-
-**Quest Requirements:**
-
-- Bring **4 Gray Gift Boxes** to Sneewy
-- **Reward**: ![Silver Xmas Ring](../images/icons/2637.gif) **Silver Christmas Ring** (personalized with your name)
-
-#### Snoowy — Elder Sister (Byalan Dungeon Floor 2: 133,160)
-
-The elder sister helps marine folk.
-
-**Quest Requirements:**
-
-- Bring **3 Gray Gift Boxes** to Snoowy
-- **Reward**: ![Gold Xmas Ring](../images/icons/2636.gif) **Gold Christmas Ring** (personalized with your name)
-
-### ✨ Ring Powers
-
-The Christmas Rings have magical powers that activate **only from December 8 to January 8** when worn with **Santa's Hat**!
-
-#### Silver Christmas Ring Effects
-
-| Condition | Skill Granted |
-|-----------|---------------|
-| Worn alone | Visual effect (Angel wings) |
-| With Santa's Hat + No AL_TELEPORT | Grants **Teleport Level 1** |
-| With Santa's Hat + Has AL_TELEPORT | Grants **Identify Level 1** |
-| With Both Rings + Santa's Hat | Enhanced Teleport (Level 2) |
-
-!!! warning "Unequip Penalty"
-    Lose **40 HP** when unequipping the Silver Ring
-
-#### Gold Christmas Ring Effects
-
-| Condition | Skill Granted |
-|-----------|---------------|
-| Worn alone | Visual effect (Sphere) |
-| With Santa's Hat + No AL_HEAL | Grants **Heal Level 1** |
-| With Santa's Hat + Has AL_HEAL | Grants **Hiding Level 4** |
-| With Both Rings + Santa's Hat | Enhanced Heal (Level 5) |
-
-!!! warning "Unequip Penalty"
-    Lose **30 SP** when unequipping the Gold Ring
-
-#### Santa's Hat Enhancement
-
-When wearing **both rings** with Santa's Hat:
-
-- Special **rainbow effect** every minute
-- Combined ring powers are enhanced
-- Bonus stats: **+1 MDEF, +1 LUK**
-
-### 🎁 Getting Gray Gift Boxes
-
-Gray Gift Boxes can be obtained by:
-
-- Converting fancy gift boxes (Gift Box 1-4) with Snower
-- Defeating Antonio across Midgard
-- Event rewards
-
----
-
 ## 🛒 Event Ticket Exchange Shop
 
 Visit **Santa** in **Prontera (146,197)** to trade your hard-earned Event Tickets for exclusive rewards!
@@ -345,10 +267,6 @@ Visit **Santa** in **Prontera (146,197)** to trade your hard-earned Event Ticket
 - **Schedule**: Every 3 hours at 00:00, 03:00, 06:00, 09:00, 12:00, 15:00, 18:00, 21:00
 - **Duration**: 10 minutes per session
 
-### Karachun Ring Quest
-- **Availability**: Throughout the event period
-- **Ring Powers**: Active December 8 - January 8
-
 ### Antonio Spawns
 - **Availability**: Continuous throughout event
 - **Spawn Rate**: 1 per map every 2-3 minutes
@@ -357,17 +275,17 @@ Visit **Santa** in **Prontera (146,197)** to trade your hard-earned Event Ticket
 
 ## 📊 Event Quick Reference
 
-| Feature | Krampus Hunt | Counterfeit Hunt | Ring Quest |
-|---------|--------------|------------------|------------|
-| **Who Can Join** | All players | All players | All players |
-| **Frequency** | Every 3 hours | Every 3 hours | Anytime |
-| **Duration** | Until defeated | 10 minutes | One-time quest |
-| **Difficulty** | MVP boss | Team survival | Quest chain |
-| **Max Tickets** | 50-100 per kill | Based on performance | No tickets (ring reward) |
-| **Special Reward** | Yule Hearth buff | Team victory bonus | Magic Christmas Rings |
+| Feature | Krampus Hunt | Counterfeit Hunt |
+|---------|--------------|------------------|
+| **Who Can Join** | All players | All players |
+| **Frequency** | Every 3 hours | Every 3 hours |
+| **Duration** | Until defeated | 10 minutes |
+| **Difficulty** | MVP boss | Team survival |
+| **Max Tickets** | 50-100 per kill | Based on performance |
+| **Special Reward** | Yule Hearth buff | Team victory bonus |
 
 ---
 
-The magic of Christmas has descended upon Rune Midgard! Will you hunt the fearsome Krampus, destroy exploding presents, or help the magical sisters? The holiday spirit awaits, brave adventurer!
+The magic of Christmas has descended upon Rune Midgard! Will you hunt the fearsome Krampus or destroy exploding presents? The holiday spirit awaits, brave adventurer!
 
 **Merry Christmas!** 🎄🎅✨
