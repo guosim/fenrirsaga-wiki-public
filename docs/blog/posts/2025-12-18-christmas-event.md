@@ -19,12 +19,12 @@ Face the fearsome **Krampus** roaming the lands or battle exploding presents in 
 
 ## 🎄 Christmas Event Overview
 
-This year's Christmas celebration features **three festive challenges** and **holiday monster spawns**:
+This year's Christmas celebration features **four festive challenges** and **holiday monster spawns**:
 
 1. **🎅 Antonio Invasion** — Santa's helper has appeared across the world
 2. **👹 Krampus Hunt** — A roaming MVP boss challenge for all adventurers
 3. **🎁 Counterfeit Present Hunt** — A team-based survival arena event
-
+4. **🌟 Christmas Spotlight** — Festive spotlight maps for grinding
 All events reward **Event Tickets** which can be exchanged for exclusive costumes and magical items!
 
 ---
@@ -177,13 +177,7 @@ The Counterfeit Present Hunt runs **every 3 hours** at:
 
 ### 💪 Power-Up Buffs
 
-Special buff presents spawn every **30 seconds**. Collect them for temporary advantages:
-
-| Buff Type | Duration | Effect |
-|-----------|----------|--------|
-| **Speed Boost** | 10 seconds | Increased movement speed |
-| **Attack Boost** | 10 seconds | Increased damage |
-| **Defense Boost** | 10 seconds | Reduced damage taken |
+Special buff presents spawn every **30 seconds**. Collect them for temporary invulnerability that grants protection for several hits!
 
 !!! tip "Buff Collection"
     Walk within **2 cells** of a buff present to automatically collect it!
@@ -218,6 +212,33 @@ When 2 or more players join:
 2. Join the event before it starts
 3. Get teleported to the arena
 4. **Destroy presents and avoid explosions!**
+
+---
+
+## 🌟 Christmas Spotlight
+
+During the Christmas Event we have gone with an eclectic lineup of Spotlight maps:
+
+The following maps will have:
+
+- 💤 **Fatigue Disabled**
+- 🔥 **+50% Mob Spawn Increase**
+
+Perfect for some fast-paced, **festive grinding fun**:
+
+| Map | Map |
+|-----|-----|
+| Ice Dungeon | Mjolnir Dead Pit |
+| Lutie and Toy Dungeon | Einbech Mine Dungeon |
+| Magma Dungeon | |
+
+### 🎄 Festive Monsters
+
+In addition, find Christmas Goblins, Christmas Orcs and Christmas Jakks across Geffen!
+
+- **Christmas Goblin** — Spawns in `gef_fild11`, `prt_fild11`
+- **Christmas Jakk** — Spawns in `gef_dun01`
+- **Christmas Orc** — Spawns in `gef_fild02`, `gef_fild03`, `gef_fild10`, `gef_fild14`
 
 ---
 
