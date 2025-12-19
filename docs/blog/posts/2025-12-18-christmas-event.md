@@ -209,8 +209,7 @@ When 2 or more players join:
 ### 💀 Event Mechanics
 
 !!! danger "What Happens When You Die?"
-    - **Respawn** at the event map spawn point
-    - **Cannot leave** the map during the event
+    - **Respawn** at Prontera center
     - **Event continues** until time expires or all presents destroyed
 
 ### 🎯 Getting Started
