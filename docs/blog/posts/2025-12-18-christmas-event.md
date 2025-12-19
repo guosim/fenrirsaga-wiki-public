@@ -24,9 +24,7 @@ This year's Christmas celebration features **four festive challenges** and **hol
 1. **🎅 Antonio Invasion** — Santa's helper has appeared across the world
 2. **👹 Krampus Hunt** — A roaming MVP boss challenge for all adventurers
 3. **🎁 Counterfeit Present Hunt** — A team-based survival arena event
-
 4. **🌟 Christmas Spotlight** — Festive spotlight maps for grinding
-
 All events reward **Event Tickets** which can be exchanged for exclusive costumes and magical items!
 
 ---
